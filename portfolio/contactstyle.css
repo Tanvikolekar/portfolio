@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(11, 1, 64);
+}
+.contact h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.contact form{
+    width: 600px;
+    text-align: center;
+}
+form .input-box{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.field .item{
+    width: 600px;
+    padding: 8px;
+    background: transparent;
+    border: 2px solid #0ef;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    margin: 12px 0;
+}
+.field .item::placeholder{
+    color: rgb(255, 255,255,.3);
+}
+form .textarea-field .item{
+    resize: none;
+}
+form  .textarea-field .error-txt{
+    text-align: center;
+}
+form button{
+    padding: 12px 22px;
+    background: #0ef;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+form button:hover{
+    box-shadow: none;
+}
