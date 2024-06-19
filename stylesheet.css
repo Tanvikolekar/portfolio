@@ -114,12 +114,11 @@ main {
     }
 
     .html-img {
-        height: fit-content;
+        height: 80px;
     }
 
     .html {
         background-color: rgb(243 229 245 / 19%);
-        ;
         text-align: center;
         width: 250px;
         height: 100px;
@@ -129,7 +128,6 @@ main {
 
     .css-img {
         height: 80px;
-        content: center;
     }
 
     .css {
@@ -142,7 +140,7 @@ main {
     }
 
     .js-img {
-        height:fit-content ;
+        height: 80px;
     }
 
     .js {
@@ -162,7 +160,7 @@ main {
     }
 
     .react-img {
-        height:fit-content ;
+        height: 80px;
     }
 
     .react {
@@ -175,7 +173,7 @@ main {
     }
 
     .mongodb-img {
-        height: fit-content;
+        height: 80px;
     }
 
     .mongodb {
@@ -188,7 +186,7 @@ main {
     }
 
     .cpp-img {
-        height: fit-content;
+        height:80px ;
     }
 
     .cpp {
